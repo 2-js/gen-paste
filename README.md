@@ -2,4 +2,6 @@
 ```javascript
 var hi = alert("hello")
 ```
-*for personal use to give links / code*
+- [x] *only public repository open*
+   - quizizz hack (private) $5
+   - ui multi tools (private) $10
