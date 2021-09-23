@@ -9,7 +9,6 @@ javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.
 <details close>
 <summary>how to use it</summary>
 <br>
-this is a bookmark that will lock the tab all you have to do is:
   
   + go to bookmark bar then 'add page'
     + put code into 'url'
