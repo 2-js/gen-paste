@@ -5,3 +5,4 @@ javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.
 .then((t) => eval(t)))
 ```
 - [x] only public repository
+
