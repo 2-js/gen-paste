@@ -9,9 +9,9 @@ javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.
 <details close>
 <summary>how to use it</summary>
 <br>
-  
+<i>
   + go to bookmark bar then 'add page'
-    + put code into 'url'
+  + put code into 'url'
   + open on the tab you want to lock
- 
+  </i>
 </details>
