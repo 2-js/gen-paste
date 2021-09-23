@@ -3,5 +3,5 @@
 var hi = alert("hello")
 ```
 - [x] *only public repository open*
-   - quizizz hack (private) $5
-   - ui multi tools (private) $10
+ - quizizz hack (private) $5
+ - ui multi tools (private) $10
