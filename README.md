@@ -6,7 +6,7 @@ javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.
 ```
 - [x] only public repository
 
-<details close>
+<details open>
 <summary>how to use it</summary>
 <br>
 <i>
