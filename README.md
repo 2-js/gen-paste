@@ -7,7 +7,7 @@ javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.
 - [x] auto updating bookmark
 #### color change
 ```javascript
-javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.js")
+javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/color.js")
 .then((res) => res.text() 
 .then((t) => eval(t)))
 ```
