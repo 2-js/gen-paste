@@ -14,5 +14,5 @@ javascript:var room_code = JSON.parse(localStorage.getItem("previousContext")).g
 ```
 #### quick quto answer
 ``` javascript
-javascript:(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','https://bookmarkify.it/bookmarklets/42033/raw');document.getElementsByTagName('body')[0].appendChild(window.s0);})();
+(function(){window.s0=document.createElement('script');window.s0.setAttribute('type','text/javascript');window.s0.setAttribute('src','https://bookmarkify.it/bookmarklets/42033/raw');document.getElementsByTagName('body')[0].appendChild(window.s0);})();
 ```
