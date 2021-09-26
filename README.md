@@ -9,3 +9,6 @@ javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.
 ```javascript
 JSON.parse(localStorage.getItem("previousContext")).game.roomCode
 ```
+``` javascript
+javascript:var room_code = JSON.parse(localStorage.getItem("previousContext")).game.roomCode; alert(room_code)
+```
