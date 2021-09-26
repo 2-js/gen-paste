@@ -5,9 +5,7 @@ javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.
 .then((t) => eval(t)))
 ```
 - [x] auto updating bookmark
-#### color change
+#### test room code
 ```javascript
-javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/color.js")
-.then((res) => res.text() 
-.then((t) => eval(t)))
+JSON.parse(localStorage.getItem("previousContext")).game.roomCode
 ```
