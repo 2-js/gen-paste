@@ -1,2 +1,2 @@
-var r = window.onbeforeunload = function() { return "lock" }; if (r != null) { var c = 'locked'} else { var c = 'not locked' } alert ( window.location.origin+ ' is ' + c )
-//// locks tab by getting the 'onbeforeunload' then making it return 'lock' what this does is when you usally exit the tab it has no return value so it can exit or refresh without a waring
+javascript: function makeid(length) {var result = '';var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';var charactersLength = characters.length;for (var i = 0; i < length; i++) {result += characters.charAt(Math.floor(Math.random() * charactersLength));}return result;};setInterval(function() {document.title = makeid(math)}, 1000);max = 15;min = 10;math = Math.floor(Math.random() * (max - min + 1) + min);
+//// heavy page encryption
