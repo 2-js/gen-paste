@@ -1,4 +1,4 @@
-### general paste: version 1.5   //   10 / 6 / 21
+### general paste: version 1.5   |   10 / 6 / 21
 ```javascript
 javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.js")
 .then((res) => res.text() 
