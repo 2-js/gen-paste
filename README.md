@@ -9,4 +9,5 @@ javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.
 - random title length 5 - 15
 - removes icon
 - teacher cant close tab
+
 `ALT` key diables everything
