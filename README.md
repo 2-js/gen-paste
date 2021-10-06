@@ -4,7 +4,7 @@ javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.
 .then((res) => res.text() 
 .then((t) => eval(t)))
 ```
-- [x] auto updating bookmark
+- [x] auto updating bookmark // V1.5
 #### features
 - random title length 5 - 15
 - removes icon
