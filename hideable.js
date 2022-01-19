@@ -9,10 +9,9 @@ var SHEEP_2048;
     }
     var wrapper=document.createElement("div"),
     frame=document.createElement("iframe");
-    frame.src="https://quizit.online";
+    frame.src="https://quizizz.quizit.online/pin";
     frame.width=333; // additional 30px to hide scrollbars
     frame.height=461;
-    frame.scrolling="no";
     applyStyles(frame,{
       position:'absolute',
       top:'-151.5px',
