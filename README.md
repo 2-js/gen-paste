@@ -1,13 +1,4 @@
-### general paste: version 1.5   |   10 / 6 / 21
+### paste: 1/27/22
 ```javascript
-javascript:fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/fetched.js")
-.then((res) => res.text() 
-.then((t) => eval(t)))
+javascript:req = new XMLHttpRequest(); req.open('GET', 'https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeCustomMenuStuff/main/custom.js'); req.onload = function() { eval(this.responseText + 'snake.more_menu();');}; req.send();
 ```
-- [x] auto updating bookmark
-#### features
-- random title length 5 - 15
-- removes icon
-- teacher cant close tab
-
-`ALT` key diables everything
