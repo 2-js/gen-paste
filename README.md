@@ -1,4 +1,4 @@
-### paste: /1
+### bookmark
 ```javascript
 javascript:req = new XMLHttpRequest(); 
 req.open('GET', 'https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeCustomMenuStuff/main/custom.js');
