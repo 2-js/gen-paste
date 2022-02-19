@@ -1,9 +1,7 @@
 ### bookmark
 ```javascript
-javascript:req = new XMLHttpRequest(); 
-req.open('GET', 'https://raw.githubusercontent.com/DarkSnakeGang/GoogleSnakeCustomMenuStuff/main/custom.js');
-req.onload = function() { eval(this.responseText + 'snake.more_menu();');}; req.send();
+JSON.parse(localStorage['nyt-wordle-state']).solution.toUpperCase();
 ```
 ```javascript
-*///snake mod
+*///ny times wrdle
 ```
