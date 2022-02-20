@@ -35,3 +35,51 @@ h1.onmouseout = function() {
     h1.textContent = "Wordle Unlimited"
 }
 ```
+```js
+var popup_style = document.createElement("style");
+popup_style.innerHTML = ".confetti-loc {display:none;} .feedback .alert{display:none;}"
+document.body.appendChild(popup_style);
+var target = document.querySelector(".game-id");
+var observer = new MutationObserver(function(mutations) {
+    var word = atob(document.querySelector(".game-id").childNodes[1].textContent)
+    for (let i = 0; i < 5; i++) {
+        document.dispatchEvent(new KeyboardEvent('keydown', {
+            key: word[i]
+        }));
+    }
+    setTimeout(() => {
+        document.dispatchEvent(new KeyboardEvent('keydown', {
+            key: 'Enter'
+        }));
+    }, 200);
+    setTimeout(() => {
+        document.dispatchEvent(new KeyboardEvent('keydown', {
+            key: 'Enter'
+        }));
+    }, 250);
+
+});
+var config = {
+    characterData: true,
+    attributes: false,
+    childList: false,
+    subtree: true
+};
+observer.observe(target, config);
+var word = atob(document.querySelector(".game-id").childNodes[1].textContent)
+for (let i = 0; i < 5; i++) {
+    document.dispatchEvent(new KeyboardEvent('keydown', {
+        key: word[i]
+    }));
+}
+setTimeout(() => {
+    document.dispatchEvent(new KeyboardEvent('keydown', {
+        key: 'Enter'
+    }));
+}, 250);
+setTimeout(() => {
+    document.dispatchEvent(new KeyboardEvent('keydown', {
+        key: 'Enter'
+    }));
+}, 250);
+```
