@@ -3,6 +3,17 @@
 JSON.parse(localStorage['nyt-wordle-state']).solution.toUpperCase();
 ```
 ```js
+var word = JSON.parse(localStorage["nyt-wordle-state"]).solution.toLowerCase()
+for (let i = 0; i < 5; i++) {
+window.dispatchEvent(new KeyboardEvent('keydown', { key: word[i] }));
+}
+setTimeout(() => {
+    window.dispatchEvent(new KeyboardEvent('keydown', {
+        key: 'Enter'
+    }));
+}, 50);
+```
+```js
 ///* decode game ID | wordle unlimited
 atob(document.querySelector(".game-id").childNodes[1].textContent)
 ///* change stats
