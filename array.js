@@ -1,1 +1,1 @@
-var array = ["a", "ab", "bx", "u"];
+["a", "ab", "bx", "u"];
