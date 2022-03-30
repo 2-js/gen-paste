@@ -45,7 +45,7 @@ var SHEEP_2048;
       frame=null;
       wrapper=null;
       SHEEP_2048=undefined;
-      for (var script of document.querySelectorAll('script[src="https://raw.githubusercontent.com/2-js/gen-paste/main/hideable@master.js"]')) script.parentNode.removeChild(script);
+      for (var script of document.querySelectorAll('script[src="https://raw.githubusercontent.com/2-js/gen-paste/main/wrapper@master.js"]')) script.parentNode.removeChild(script);
     };
   }
 }());
