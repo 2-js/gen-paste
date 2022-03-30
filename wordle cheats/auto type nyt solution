@@ -1,0 +1,9 @@
+var word = JSON.parse(localStorage["nyt-wordle-state"]).solution.toLowerCase()
+for (let i = 0; i < 5; i++) {
+window.dispatchEvent(new KeyboardEvent('keydown', { key: word[i] }));
+}
+setTimeout(() => {
+    window.dispatchEvent(new KeyboardEvent('keydown', {
+        key: 'Enter'
+    }));
+}, 50);
