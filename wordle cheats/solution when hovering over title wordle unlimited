@@ -1,0 +1,7 @@
+var h1 = document.querySelector("h1")
+h1.onmouseover = function() {
+    h1.textContent = atob(document.querySelector(".game-id").childNodes[1].textContent).toUpperCase()
+}
+h1.onmouseout = function() {
+    h1.textContent = "Wordle Unlimited"
+}
