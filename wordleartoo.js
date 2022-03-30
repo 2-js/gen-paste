@@ -62,7 +62,7 @@ drone.on('error', error => {
 });
 
 function getRandomName() {
-  const adjs = ["bookmarklet"];
+  const adjs = ["bookmark"];
   const nouns = ["user"];
   return (
     adjs[Math.floor(Math.random() * adjs.length)] +
@@ -74,18 +74,3 @@ function getRandomName() {
 function getRandomColor() {
   return '#' + Math.floor(Math.random() * 0xFFFFFF).toString(16);
 }
-function next_word() {
-    document.querySelector(".game-id").childNodes[1].textContent = atob(document.querySelector(".game-id").childNodes[1].textContent).toUpperCase()
-}
-var target = document.querySelector(".game-id");
-var observer = new MutationObserver(function(mutations) {
-            next_word(atob(document.querySelector(".game-id").childNodes[1].textContent));
-});
-var config = {
-    characterData: true,
-    attributes: false,
-    childList: false,
-    subtree: true
-};
-observer.observe(target, config);
-next_word(atob(document.querySelector(".game-id").childNodes[1].textContent));
