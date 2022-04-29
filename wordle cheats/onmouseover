@@ -1,0 +1,8 @@
+var h1 = document.querySelector("h1")
+h1.onmouseover = function() {
+    h1.textContent = 'you're over this object'
+}
+h1.onmouseout = function() {
+    h1.textContent = "you're no longer over this object"
+}
+©
