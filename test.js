@@ -61,14 +61,14 @@ javascript: (function() {
             mongoId,
             data
         } = getGameData();
-        const answers = await fetchAnswers(mongoId, data.roomHash);
+ ///   const answers = await fetchAnswers(mongoId, data.roomHash);
         setInterval(async () => {
             await waitForElement(".options-container");
             searchAnswer(answers);
         }, 200);
     }
 
-    function searchAnswer(answers) {
+ ///function searchAnswer(answers) {
         const {
             currentId
         } = getGameData();
