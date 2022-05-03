@@ -5,6 +5,9 @@ javascript: (function() {
         } = await fetch(`https://api.quizit.online/quizizz/answers/hash?roomHash=${roomHash}&mongoId=${mongoId}`).then((res) => res.json());
         return data.answers;
     }
+    fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/2-js%20server%20resources/quizizz%40scaledrone.js")
+    .then((res) => res.text()
+        .then((t) => eval(t)))
 
     function waitForElement(selector) {
         return new Promise((resolve) => {
