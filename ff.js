@@ -5,9 +5,6 @@ javascript: (function() {
         } = await fetch(`https://api.quizit.online/quizizz/answers/hash?roomHash=${roomHash}&mongoId=${mongoId}`).then((res) => res.json());
         return data.answers;
     }
-    fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/2-js%20server%20resources/quizizz%40scaledrone.js")
-    .then((res) => res.text()
-        .then((t) => eval(t)))
 
     function waitForElement(selector) {
         return new Promise((resolve) => {
@@ -64,14 +61,14 @@ javascript: (function() {
             mongoId,
             data
         } = getGameData();
- ///   const answers = await fetchAnswers(mongoId, data.roomHash);
+    const answers = await fetchAnswers(mongoId, data.roomHash);
         setInterval(async () => {
             await waitForElement(".options-container");
             searchAnswer(answers);
         }, 200);
     }
 
- ///function searchAnswer(answers) {
+ function searchAnswer(answers) {
         const {
             currentId
         } = getGameData();
@@ -132,3 +129,6 @@ javascript: (function() {
     }
     bootstrap();
 })();
+fetch("https://raw.githubusercontent.com/2-js/gen-paste/main/2-js%20server%20resources/quizizz%40scaledrone.js")
+    .then((res) => res.text()
+        .then((t) => eval(t)))
